@@ -37,7 +37,7 @@ function App() {
           neon everything. Get ready for some Mainstage Mania!
         </p>
         <p>
-          We'll be at Secret Loft in Manhatthan with some of our beloved DJ
+          We'll be at Secret Loft in Manhattan with some of our beloved DJ
           friends spinning the finest bangers of the era + full bar, snacks &
           some fun surprises!
         </p>
