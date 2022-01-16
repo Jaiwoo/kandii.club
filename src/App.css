@@ -90,6 +90,7 @@ iframe {
   border-radius: 3px;
   padding-left: 2%;
   padding-right: 2%;
+  padding-bottom: 2%;
   max-width: 80%;
   text-align: center;
   background-color: rgb(249, 211, 113);
@@ -102,7 +103,7 @@ iframe {
   margin-top: 6%;
 }
 
-#venmo-link {
+#text-link {
   font-size: calc(12px + 2vmin);
   color: lightseagreen;
   text-decoration: none;

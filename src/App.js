@@ -45,7 +45,14 @@ function App() {
           Keep tabs on this space as we'll update with more info as we get
           closer to the Rave.
         </p>
-        <p>Let's Rage</p>
+        <a
+          id='text-link'
+          href='https://fb.me/e/eduFrJWIY'
+          rel='noreferrer'
+          target='_blank'
+        >
+          Let's Rage
+        </a>
       </div>
 
       {/* Talent Section */}
@@ -124,7 +131,7 @@ function App() {
         </p>
         <p>
           <a
-            id='venmo-link'
+            id='text-link'
             href={'https://urlgeni.us/venmo/kandiclub'}
             rel='noreferrer'
             target='_blank'
