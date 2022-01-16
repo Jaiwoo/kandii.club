@@ -98,6 +98,10 @@ iframe {
   font-size: calc(4px + 2vmin);
 }
 
+#Venmo-container {
+  margin-top: 6%;
+}
+
 #venmo-link {
   font-size: calc(12px + 2vmin);
   color: lightseagreen;
@@ -116,7 +120,7 @@ iframe {
   flex-direction: column;
   max-width: 80%;
   box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
-  margin-bottom: 10%;
+  margin-bottom: 6%;
 }
 
 .Talent-img {
@@ -153,6 +157,6 @@ a {
   .Header-img,
   .Talent-card,
   iframe {
-    width: 440px;
+    width: 520px;
   }
 }

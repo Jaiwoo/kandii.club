@@ -42,19 +42,10 @@ function App() {
           some fun surprises!
         </p>
         <p>
-          Any donatations to our Rave Prep are much appreciated & we promise it
-          will be put to good use.
+          Keep tabs on this space as we'll update with more info as we get
+          closer to the Rave.
         </p>
-        <p>
-          <a
-            id='venmo-link'
-            href={'https://urlgeni.us/venmo/kandiclub'}
-            rel='noreferrer'
-            target='_blank'
-          >
-            Venmo
-          </a>
-        </p>
+        <p>Let's Rage</p>
       </div>
 
       {/* Talent Section */}
@@ -126,6 +117,22 @@ function App() {
         allowfullscreen=''
         loading='lazy'
       ></iframe>
+      <div id='Venmo-container' className='Text-container'>
+        <p>
+          Any donatations to our Rave Prep are much appreciated & we promise it
+          will be put to good use!
+        </p>
+        <p>
+          <a
+            id='venmo-link'
+            href={'https://urlgeni.us/venmo/kandiclub'}
+            rel='noreferrer'
+            target='_blank'
+          >
+            Venmo
+          </a>
+        </p>
+      </div>
       <footer>Created by Jaiwoo</footer>
     </div>
   );
