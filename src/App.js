@@ -2,23 +2,31 @@ import './App.css';
 import jacob from './img/jacob.jpg';
 import jaiwoo from './img/jaiwoo.jpg';
 import nekog from './img/nekog.jpg';
-import cruz from './img/cruz.png';
+import cruz from './img/cruz.jpg';
 import actii from './img/actii.jpg';
 
 function App() {
   return (
     <div className='App'>
+      {/* Header */}
       <header className='App-header'>
         <p>Welcome to Jacob's</p>
         <p id='Header-title'>kandii.club</p>
       </header>
 
-      <img className='Header-img' src={jacob} alt='jacob'></img>
+      <a
+        href='https://www.instagram.com/vtjacob/'
+        rel='noreferrer'
+        target='_blank'
+      >
+        <img className='Header-img' src={jacob} alt='jacob'></img>
+      </a>
 
       <p className='Section-header'>
-        Sat. Feb. 19th 2022 <br></br> 10p - 4a
+        Sat. Feb. 19th 2022 <br></br>Secret Loft NYC <br></br> 10p - 4a
       </p>
 
+      {/* Text Section */}
       <div className='Text-container'>
         <p>
           Before our boy moves forward into his 30s we're throwing it back for
@@ -26,28 +34,77 @@ function App() {
         </p>
         <p>
           Think kandi bracelets, fuzzy leg warmers, outrageous costumes, and all
-          neon everything. We'll have Secret Loft all to ourselves and will have
-          some of our beloved DJ friends spinning the finest bangers of the era
-          + some surprises!
+          neon everything. Get ready for some Mainstage Mania!
+        </p>
+        <p>
+          We'll be at Secret Loft in Manhatthan with some of our beloved DJ
+          friends spinning the finest bangers of the era + full bar, snacks &
+          some fun surprises!
+        </p>
+        <p>
+          Any donatations to our Rave Prep are much appreciated & we promise it
+          will be put to good use.
+        </p>
+        <p>
+          <a
+            id='venmo-link'
+            href={'https://urlgeni.us/venmo/kandiclub'}
+            rel='noreferrer'
+            target='_blank'
+          >
+            Venmo
+          </a>
         </p>
       </div>
+
+      {/* Talent Section */}
       <p className='Section-header'>Your Throwback Curators</p>
-      <div className='Talent-card'>
+      {/* Jaiwoo */}
+      <a
+        href='https://www.instagram.com/djaiwoo/'
+        rel='noreferrer'
+        target='_blank'
+        className='Talent-card'
+      >
         <img className='Talent-img' id='jaiwoo-img' src={jaiwoo} alt=''></img>
+
         <p>Jaiwoo</p>
-      </div>
-      <div className='Talent-card'>
+      </a>
+
+      {/* Cruz Cruz */}
+      <a
+        href='https://www.instagram.com/cruzcruzofficial/'
+        rel='noreferrer'
+        target='_blank'
+        className='Talent-card'
+      >
         <img className='Talent-img' id='cruz-img' src={cruz} alt=''></img>
         <p>Cruz Cruz</p>
-      </div>
-      <div className='Talent-card'>
+      </a>
+
+      {/* Act II */}
+      <a
+        href='https://www.instagram.com/holleratyourboy/'
+        rel='noreferrer'
+        target='_blank'
+        className='Talent-card'
+      >
         <img className='Talent-img' id='actii-img' src={actii} alt=''></img>
         <p>Act II</p>
-      </div>
-      <div className='Talent-card'>
+      </a>
+
+      {/* Neko G */}
+      <a
+        href='https://www.instagram.com/nekogisadj/'
+        rel='noreferrer'
+        target='_blank'
+        className='Talent-card'
+      >
         <img className='Talent-img' id='nekog-img' src={nekog} alt=''></img>
         <p>Neko G</p>
-      </div>
+      </a>
+
+      {/* Spotify Embed */}
       <p className='Section-header'>Get Hype!</p>
       <iframe
         title='spotify'
@@ -58,6 +115,8 @@ function App() {
         allowfullscreen=''
         allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
       ></iframe>
+
+      {/* Google Map Embed */}
       <p className='Section-header'>Location</p>
       <iframe
         title='map'

@@ -61,19 +61,20 @@
 
 .Header-img {
   max-width: 80%;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
 }
 
 iframe {
   max-width: 80%;
-  border-radius: 2%;
+  border-radius: 5px;
   box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
 }
 
 #Header-title {
   font-size: 3rem;
   color: rgb(239, 47, 136);
+  text-shadow: 2px 2px 5px rgb(249, 211, 113);
 }
 
 #Header-date p {
@@ -95,6 +96,12 @@ iframe {
   box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
   font-family: PressStart2P;
   font-size: calc(4px + 2vmin);
+}
+
+#venmo-link {
+  font-size: calc(12px + 2vmin);
+  color: lightseagreen;
+  text-decoration: none;
 }
 
 .Section-header {
@@ -121,7 +128,7 @@ iframe {
   margin: 0%;
   padding: 5%;
   background-color: rgb(249, 211, 113);
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 5px 5px;
   font-family: NeonVampire;
   font-size: calc(12px + 2vmin);
   color: rgb(239, 47, 136);
@@ -132,4 +139,20 @@ footer {
   font-family: NeonVampire;
   font-size: calc(16px + 2vmin);
   text-shadow: 2px 2px 5px red;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .App-header,
+  .Text-container,
+  .Section-header,
+  .Header-img,
+  .Talent-card,
+  iframe {
+    width: 440px;
+  }
 }
