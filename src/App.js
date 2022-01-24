@@ -43,7 +43,7 @@ function App() {
         </p>
         <p>
           Keep tabs on this space as we'll update with more info as we get
-          closer to the Rave.
+          closer to the event.
         </p>
         <a
           id='text-link'
@@ -51,7 +51,7 @@ function App() {
           rel='noreferrer'
           target='_blank'
         >
-          Let's Rage
+          RSVP
         </a>
       </div>
 
