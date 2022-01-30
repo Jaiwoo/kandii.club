@@ -56,7 +56,7 @@ function App() {
       </div>
 
       {/* Talent Section */}
-      <p className='Section-header'>Your Throwback Curators</p>
+      <p className='Section-header'>Your Kandii Kurators</p>
       {/* Jaiwoo */}
       <a
         href='https://www.instagram.com/djaiwoo/'
