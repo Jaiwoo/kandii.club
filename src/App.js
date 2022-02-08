@@ -47,7 +47,7 @@ function App() {
         </p>
         <a
           id='text-link'
-          href='https://fb.me/e/eduFrJWIY'
+          href='https://forms.gle/9JkAxaZRJatVpBLfA'
           rel='noreferrer'
           target='_blank'
         >
