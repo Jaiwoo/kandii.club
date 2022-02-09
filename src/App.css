@@ -1,0 +1,182 @@
+/* Themes */
+
+:root {
+  /* 1 */
+  --russian-violet: #4c1a57ff;
+  --razzle-dazzle-rose: #ff3cc7ff;
+  --maximum-yellow: #f0f600ff;
+  --fluorescent-blue: #00e5e8ff;
+  --teal: #007c77ff;
+
+  /* 2 */
+  --sea-green-crayola: #17ffc4ff;
+  --phlox: #cc17ffff;
+  --french-violet: #6917d0ff;
+  --deep-pink: #ff1791ff;
+  --turquoise-blue: #17ffeeff;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: 'NeonVampire';
+  src: local('NeonVampire'),
+    url(./fonts/NeonVampire-9g6Z.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PressStart2P';
+  src: local('PressStart2P'),
+    url(./fonts/PressStart2P-Regular.ttf) format('truetype');
+}
+
+/* App Styles */
+
+.App {
+  text-align: center;
+  background-color: #8843f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(244, 115, 64);
+}
+
+.App-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: NeonVampire;
+  color: rgb(249, 211, 113);
+  font-size: calc(16px + 2vmin);
+  text-shadow: 2px 2px 5px red;
+  justify-content: space-around;
+}
+
+.App-header p {
+  margin: 5px;
+}
+
+.Header-img {
+  max-width: 80%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
+}
+
+iframe {
+  max-width: 80%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
+}
+
+#Header-title {
+  font-size: 3rem;
+  color: rgb(239, 47, 136);
+  text-shadow: 2px 2px 5px rgb(249, 211, 113);
+}
+
+#Header-date p {
+  color: rgb(244, 115, 64);
+  font-size: calc(10px + 2vmin);
+}
+
+.App-body {
+  flex-grow: 1;
+}
+
+.Text-container {
+  border-radius: 3px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  max-width: 80%;
+  text-align: center;
+  background-color: rgb(249, 211, 113);
+  box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
+  font-family: PressStart2P;
+  font-size: calc(4px + 2vmin);
+}
+
+.Genre-container {
+  border-radius: 3px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 1%;
+  min-width: 80%;
+  text-align: center;
+  background-color: rgb(239, 47, 136);
+  box-shadow: 10px 10px 5px 0 rgb(244, 115, 64);
+  color: rgb(249, 211, 113);
+  font-family: PressStart2P;
+  font-size: calc(4px + 2vmin);
+}
+
+#Venmo-container {
+  margin-top: 6%;
+}
+
+#text-link {
+  font-size: calc(12px + 2vmin);
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.Section-header {
+  max-width: 80%;
+  font-family: NeonVampire;
+  font-size: calc(18px + 2vmin);
+  text-shadow: 2px 2px 5px red;
+}
+
+.Talent-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  box-shadow: 10px 10px 5px 0 rgb(239, 47, 136);
+  margin-bottom: 6%;
+}
+
+.Talent-img {
+  max-width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+.Talent-card p {
+  margin: 0%;
+  padding: 5%;
+  background-color: rgb(249, 211, 113);
+  border-radius: 0 0 5px 5px;
+  font-family: NeonVampire;
+  font-size: calc(12px + 2vmin);
+  color: rgb(239, 47, 136);
+}
+
+footer {
+  padding: 5%;
+  font-family: NeonVampire;
+  font-size: calc(16px + 2vmin);
+  text-shadow: 2px 2px 5px red;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .App-header,
+  .Text-container,
+  .Genre-container,
+  .Section-header,
+  .Header-img,
+  .Talent-card,
+  iframe {
+    width: 520px;
+  }
+
+  .Genre-container {
+    min-width: 0%;
+  }
+}
